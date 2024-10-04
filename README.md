@@ -26,7 +26,7 @@ Examples:
 With packer:
 ```lua
 use({
-  "giusgad/pets.nvim",
+  "nohashduck/pets.nvim",
   requires = {
     "giusgad/hologram.nvim",
     "MunifTanjim/nui.nvim",
@@ -36,7 +36,7 @@ use({
 With lazy:
 ```lua
 {
-  "giusgad/pets.nvim",
+  "nohashduck/pets.nvim",
   dependencies = { "MunifTanjim/nui.nvim", "giusgad/hologram.nvim" },
 }
 ```
@@ -95,6 +95,7 @@ These are all the available commands:
 
 | Pet | Styles |
 |:---:|:-------:|
+|catgirl|blue|
 |dog|brown, black, gray, beige|
 |slime|green, pink, orange, blue|
 |clippy|black, brown, green, yellow|
